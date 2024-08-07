@@ -1,3 +1,14 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlight from "./components/Highlight";
+
 export default function App() {
-  return <h1>Apple Website</h1>;
+  return (
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlight />
+    </main>
+  );
 }
